@@ -1,0 +1,115 @@
+z@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0a1e27;
+    --secondary-color: #e9c675;
+    --text-light: #cbd5e1;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Playfair Display", serif;
+  }
+
+  
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a1e27;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: justify;
+    }
+    h2{
+        color: var(--secondary-color);
+    }
+    
+    header {
+    background-color: #0a1e27;
+    color: #c2ab74;
+    padding: 10px 0;
+    border-bottom: 2px solid #c2ab74;
+    }
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    
+    .logo h1 {
+    margin: 0;
+    font-size: 2em;
+    }
+    
+    .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    .nav-list li {
+    margin-left: 20px;
+    }
+    
+    .nav-list li a {
+    color: #c2ab74;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .nav-list li a
+    {
+    text-decoration: underline;
+    }
+    
+    .content-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: navy;
+    border: 1px solid #e9c675;
+    }
+    
+    .section {
+    margin-bottom: 20px;
+    }
+    
+    h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    border-bottom: 1px solid #e9c675;
+    padding-bottom: 10px;
+    }
+    
+    .about__content-1, .about__content-2, .about__content-3, .about__content-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .about__content-1 p, .about__content-2 p, .about__content-3 p, .about__content-4 p {
+    flex: 1;
+    margin: 10px;
+    text-align: justify;
+    }
+    
+    .about__content-1 img, .about__content-2 img, .about__content-3 img, .about__content-4 img {
+    max-width: 300px;
+    margin: 10px;
+    border: 1px solid #e9c675;
+    padding: 5px;
+    }
+    
+    .about__content-2 {
+    flex-direction: row-reverse;
+    }
+    
+    .about__content-4 {
+    flex-direction: row-reverse;
+    }
